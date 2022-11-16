@@ -1,0 +1,124 @@
+header{
+    width: 100%;
+    
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    Height: 50px;
+    background-color: aliceblue;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url("/Site-background-light.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.All {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    
+    
+}
+
+.LeftSide {
+    width: 69%;
+    height: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.RightSide {
+    
+    width: 29%;
+    height: 100%;
+    margin-left: 2%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+
+
+/* Новости */
+
+.LatestNews{
+    width: 100%;
+    height: 100%;
+}
+
+.LatestNews h1{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.News_1{
+    text-align: center;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.News_2{
+    text-align: center;
+    width:90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.News_3{
+    text-align: center;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.News_4{
+    text-align: center;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;    
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.AboutSite {
+    text-align: center;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.AboutGame {
+    text-align: center;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 10px;
+}
