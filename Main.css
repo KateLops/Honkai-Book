@@ -11,10 +11,13 @@ header{
 }
 
 body{
+    font-family: 'Nunito', sans-serif;
+    
     padding: 0;
     margin: 0;
     width: 100%;
     background-image: url("/Site-background-light.webp");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,32 +27,178 @@ main {
     width: 80%;
     margin: auto;
     margin-top: 30px;
+    
 }
 
-.All {
+/* верхняя вкладка */
+
+.AllSide{
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    border: 3px solid #7ad4ef;
+    border-radius: 10px;
+}
+
+.UpperSide h1{
+    color: #7ad4ef;
+    text-align: center;
+    margin: 0px;
+}
+
+.lowerSide{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*иконки игры*/
+
+.Attack{
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 140px; 
+    height: 140px; 
+    background-image: url(/Attack_Button_1.webp);
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s;
+}
+.Attack:hover{
+    margin-left: 0px;
+    margin-top: 0px;
+    background-position: center;
+    width: 190px; 
+    height: 190px; 
+}
+
+.Valkyrie{
+    margin-top: 0px;
+    width: 153px; 
+    height: 153px;
+    background-image: url(/Valkyrie_Button_1.webp);
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s;  
+}
+.Valkyrie:hover{
+    margin-top: 0px;
+    background-position: center;
+    width: 190px; 
+    height: 190px; 
+}
+
+.Equipment{
+    margin-top: 0px;
+    width: 155px; 
+    height: 155px;  
+    background-image: url(/Equipment_Button_1.webp);
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s; 
+}
+.Equipment:hover{
+    margin-top: 0px;
+    background-position: center;
+    width: 190px; 
+    height: 190px; 
+}
+
+.Base{
+    margin-top: 0px;
+    width: 153px; 
+    height: 153px;  
+    background-image: url(/Base_Button_1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s; 
+}
+.Base:hover{
+    margin-top: 0px;
+    background-position: center;
+    width: 200px; 
+    height: 200px; 
+}
+
+.Elf{
+    margin-top: 0px;
+    width: 140px; 
+    height: 140px;
+    background-image: url(/ELF_Button_1.webp);  
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s; 
+}
+.Elf:hover{
+    margin-top: 0px;
+    background-position: center;
+    width: 190px; 
+    height: 190px; 
+}
+
+.Supply{
+    margin-top: 0px;
+    width: 140px; 
+    height: 140px;  
+    background-image: url(/Supply_Button_1.webp);
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s; 
+}
+.Supply:hover{
+    margin-top: 0px;
+    background-position: center;
+    width: 190px; 
+    height: 190px; 
+}
+
+.Armada{
+    margin-right: 30px;
+    margin-top: 0px;
+    width: 153px; 
+    height: 153px;  
+    background-image: url(/Armada_Button_1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s; 
+}
+.Armada:hover{
+    
+    margin-top: 0px;
+    background-position: center;
+    width: 200px; 
+    height: 200px; 
+}
+
+.All {  
     display: flex;
     width: 100%;
     height: 1000px;
-    
+    margin-top: 20px;
     
 }
 
 .LeftSide {
     width: 69%;
     height: 100%;
+    
     background-color: aliceblue;
-    border-radius: 20px;
-    opacity: 0.9;
+    border: 3px solid #7ad4ef;
+    border-radius: 10px;
+    
 }
 
 .RightSide {
     
-    width: 29%;
+    width: 30%;
     height: 100%;
     margin-left: 2%;
+    
     background-color: aliceblue;
-    border-radius: 20px;
-    opacity: 0.9;
+    border: 3px solid #7ad4ef;
+    border-radius: 10px;
+    
 }
 
 
@@ -57,11 +206,13 @@ main {
 /* Новости */
 
 .LatestNews{
+    color: black;
     width: 100%;
     height: 100%;
 }
 
 .LatestNews h1{
+    color: #7ad4ef;
     width: 100%;
     height: 30px;
     text-align: center;
@@ -74,7 +225,8 @@ main {
     height: 200px;
     margin: auto;
     margin-bottom: 20px;
-    background-color: aqua;
+    background-color: white;
+    border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
 .News_2{
@@ -83,7 +235,8 @@ main {
     height: 200px;
     margin: auto;
     margin-bottom: 20px;
-    background-color: aquamarine;
+    background-color: white;
+    border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
 .News_3{
@@ -92,7 +245,8 @@ main {
     height: 200px;
     margin: auto;
     margin-bottom: 20px;
-    background-color: aqua;
+    background-color: white;
+    border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
 .News_4{
@@ -101,24 +255,59 @@ main {
     height: 200px;
     margin: auto;
     margin-bottom: 20px;    
-    background-color: aquamarine;
+    background-color: white;
+    border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
 
 .AboutSite {
     text-align: center;
     width: 95%;
-    height: 300px;
+    height: 280px;
     margin: auto;
-    background-color: lightgray;
+    margin-top: 10px;
+    background-color: white;
+    border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
 
 .AboutGame {
     text-align: center;
     width: 95%;
-    height: 300px;
+    height: 280px;
     margin: auto;
-    background-color: lightgray;
+    margin-top: 10px;
+    background-color: white;
+    border: 3px solid #7ad4ef;
     border-radius: 10px;
+}
+
+.OfficialSites{
+    text-align: center;
+    width: 95%;
+    height: 380px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    border: 3px solid #7ad4ef;
+    border-radius: 10px;
+}
+
+.Reddit{
+    height: 100%;
+    display: flex;
+    margin: 5px;
+    
+}
+
+.Reddit p{
+    vertical-align: auto;
+    margin-left: 10px;
+}
+
+.RedditImage{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
 }
