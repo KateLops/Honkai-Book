@@ -17,6 +17,7 @@ body{
     margin: 0;
     width: 100%;
     background-image: url("/Site-background-light.webp");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,43 +220,52 @@ main {
     
 }
 
+
 .News_1{
-    text-align: center;
+    
     width: 90%;
-    height: 200px;
+    height: 192px;
     margin: auto;
     margin-bottom: 20px;
-    background-color: white;
+    background-image:  url(/Expa.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
     border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
 .News_2{
     text-align: center;
     width:90%;
-    height: 200px;
+    height: 192px;
     margin: auto;
     margin-bottom: 20px;
-    background-color: white;
+    background-image:  url(/Focused.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
     border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
 .News_3{
     text-align: center;
     width: 90%;
-    height: 200px;
+    height: 192px;
     margin: auto;
     margin-bottom: 20px;
-    background-color: white;
+    background-image:  url(/SP.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
     border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
 .News_4{
     text-align: center;
     width: 90%;
-    height: 200px;
+    height: 192px;
     margin: auto;
     margin-bottom: 20px;    
-    background-color: white;
+    background-image:  url(/Flowing.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
     border: 3px solid #7ad4ef;
     border-radius: 10px;
 }
@@ -265,7 +275,7 @@ main {
     width: 95%;
     height: 280px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: white;
     border: 3px solid #7ad4ef;
     border-radius: 10px;
@@ -276,7 +286,7 @@ main {
     width: 95%;
     height: 280px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: white;
     border: 3px solid #7ad4ef;
     border-radius: 10px;
@@ -285,9 +295,9 @@ main {
 .OfficialSites{
     text-align: center;
     width: 95%;
-    height: 380px;
+    height: 330px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: white;
     border: 3px solid #7ad4ef;
     border-radius: 10px;
@@ -310,4 +320,14 @@ main {
     margin-top: 10px;
     width: 30px;
     height: 30px;
+}
+
+.AllA{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ComicPage a{
+    width: 300px;
+    margin-left: 25%;
 }
