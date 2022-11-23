@@ -26,9 +26,14 @@ h1, h2{
 }
 
 .icon {
-    width: 120px;
-    height: 200px;
-   background-color: white;
-   border-radius: 10px;
-   box-shadow: 5px 5px 1px #7ad4ef;
+    position: relative;
+    width: 127px;
+    height: 119px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 1px #7ad4ef;
+    background-repeat: no-repeat;
+    transform: skew(-15deg);
+}
+.ValkyrieBackground{
 }
