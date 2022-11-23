@@ -1,0 +1,34 @@
+/* Настройка главного блока с валькириями */
+
+.ValkyrieTab{
+    width: 100%;                                /* Ширина всего блока */
+    height: 1000px;                             /* Высота всего блока */
+    margin-top: 20px;                           /* Отступ от быстрой навигации */
+    background-color: aliceblue;              /* Цвет фона всего блока */
+    border: 3px solid #7ad4ef;                /* Размер, цвет и вид рамки всего блока */
+    border-radius: 10px;                        /* Радиус скругления краёв всего блока */
+}
+
+/* Настройка текста главного блока */
+
+h1, h2{
+    width: 100%;                                /* Ширина текста */
+    text-align: center;                         /* Расположение центра */
+    color: #1a75d3;                           /* Цвет текста */
+}
+
+.FirstRow, .SecondRow, .ThirdRow {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+.icon {
+    width: 120px;
+    height: 200px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 5px 5px 1px #7ad4ef;
+}
