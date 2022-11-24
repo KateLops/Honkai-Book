@@ -61,6 +61,7 @@ main {
     width: 140px; 
     height: 140px; 
     background-image: url(/Attack_Button_1.webp);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     transition: 0.3s;
@@ -78,6 +79,7 @@ main {
     width: 153px; 
     height: 153px;
     background-image: url(/Valkyrie_Button_1.webp);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     transition: 0.3s;  
@@ -94,6 +96,7 @@ main {
     width: 155px; 
     height: 155px;  
     background-image: url(/Equipment_Button_1.webp);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     transition: 0.3s; 
@@ -126,7 +129,8 @@ main {
     margin-top: 0px;
     width: 140px; 
     height: 140px;
-    background-image: url(/ELF_Button_1.webp);  
+    background-image: url(/ELF_Button_1.webp); 
+    background-repeat: no-repeat; 
     background-position: center;
     background-size: 100%;
     transition: 0.3s; 
@@ -143,6 +147,7 @@ main {
     width: 140px; 
     height: 140px;  
     background-image: url(/Supply_Button_1.webp);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     transition: 0.3s; 

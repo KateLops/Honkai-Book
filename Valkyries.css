@@ -25,15 +25,20 @@ h1, h2{
     
 }
 
+
+
 .icon {
-    position: relative;
-    width: 127px;
-    height: 119px;
+    float: left;
+    width:140px;
+    height: 170px;
     background-color: white;
     border-radius: 12px;
-    box-shadow: 5px 5px 1px #7ad4ef;
-    background-repeat: no-repeat;
+    box-shadow: 6px 6px 1px #7ad4ef;
     transform: skew(-15deg);
+    padding: 0px 0px 0px 0px;
 }
-.ValkyrieBackground{
+
+.ValkyrieBackground {
+float: left;
+width: 140px;
 }
